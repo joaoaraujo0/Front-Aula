@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="Index.html">Pesquisar</a></li>
+            <li><a href="TabelaCadastro.html">Cadastrar</a></li>
+        </ul>
+    </nav>
+    <h1 id="titulo">Tabela de Cadastro</h1>
+
+
+    <main>
+        <form class="center">
+
+            <label class="text">Codigo:</label>
+            <input placeholder="Digite o código do produto" type="text" name="codigo" id="codigo" required>
+
+            <label class="text">Nome:</label>
+            <input required placeholder="Digite o nome do produto" type="text" name="nome" id="nome" >
+
+            <label class="text">Categoria:</label>
+            <select id="categoria">
+                <option selected disabled value="">Selecione</option>
+                <option>Bebida Alcoólica</option>
+                <option>Alimento perecivel</option>
+                <option>Bebida não Alcoólica</option>
+                <option>Alimento não perecivel</option>
+            </select>
+
+            <label class="text">Preço:</label>
+            <input placeholder="Digite o preço do produto" type="number" id="preco" >
+
+            <label class="text">Quantidade:</label>
+            <input placeholder="Digite o código do produto" type="number" id="quantidade">
+
+
+        </form>
+        <div id="centerButton">
+            <button class="buttonCadastro"><a href="#">Ok</a></button>
+            <button class="buttonCadastro1"><a href="#">Cancelar</a></button>
+            <button class="buttonCadastro2"><a href="#">Apagar</a></button>
+        </div>
+
+    </main>
+
+
+
+</body>
+
+</html>

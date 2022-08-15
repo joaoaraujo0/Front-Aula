@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+/*----------------------------------------------INDEX-----------------------------------------------------*/
+.menu ul{
+    list-style-type:none ;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+    background-color: #000000;
+    font-weight: 700;
+    
+}
+.menu ul li{
+    display: inline;
+    background-color: #000000;
+}
+.menu ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px;
+    transition: background .5s ;
+}
+.menu ul li a:hover{
+    background-color: #4b4b4b;
+}
+/*----------------------Menu------------------------- */
+
+input{padding: 0.2em 0.5em;}
+body{background: #ffb6c1;
+}
+.titulo{
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+.botao{
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background-color:rgb(141, 123, 243);
+    font-size: 15px;
+    border: 1px solid #000000;
+    transition: background .5s;
+    
+}
+.botao:hover{
+    background-color: rgb(184, 213, 238);
+}
+#Input{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    outline: unset;
+    border: 2px solid black;
+}
+.principal{
+    font-size: 25px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    margin-bottom: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#table{
+    background-color: #ffffff;
+    width: 75%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.button{
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:rgb(172, 172, 172);
+    font-size: 15px;
+    border: 2px solid #000000;
+    overflow: hidden;
+    cursor: pointer;
+    transition: background .5s;
+
+}
+
+.button:hover{
+    background-color: aliceblue;
+}
+th, tr
+{
+  background-color: #ffffff;
+}
+
+/*--------------------------------------------------TabelaCadastro-----------------------------------*/
+form div{
+    display: flex;
+    flex-direction: column;
+    outline: unset;
+    padding: 10px;
+    width: 300px;
+}
+
+#titulo{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    font-size: 30px;
+}
+#codigo{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    outline: unset;
+    border-radius: 50px; 
+    border: 2px solid rgb(0, 0, 0);
+}
+#nome{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    outline: unset;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+}
+#categoria{
+    width: 370px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    outline: unset;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+}
+#preco{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    outline: unset;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+}
+#quantidade{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    outline: unset;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.buttonCadastro{
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 150px;
+    height: 40px;
+    background-color:rgb(43, 189, 6);
+    font-size: 15px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .5s;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.buttonCadastro:hover{
+    background-color: rgb(100, 235, 107);
+}
+#centerButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.buttonCadastro1{
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 150px;
+    height: 40px;
+    background-color:rgb(187, 187, 187);
+    font-size: 15px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .5s;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+.buttonCadastro1:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+.buttonCadastro2{
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 150px;
+    height: 40px;
+    background-color:rgb(241, 16, 16);
+    border: 1px solid #000000;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .5s;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.buttonCadastro2:hover{
+    background-color: rgb(167, 68, 65);
+}
+div button a {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+}
