@@ -38,6 +38,17 @@
 input{padding: 0.2em 0.5em;}
 body{background: #ffb6c1;
 }
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #e79494;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px;
+}
 .titulo{
     margin-bottom: 50px;
     font-size: 60px;
